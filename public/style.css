@@ -1,0 +1,72 @@
+body {
+    background-color: #f7f7f7;
+    font-family: Arial, sans-serif;
+}
+#loginForm {
+    width: 30%;
+    margin: 50px auto;
+}
+#chatContainer {
+    display: none;
+    margin-top: 50px;
+}
+#chatMessages {
+    height: 400px;
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+#chatMessages div {
+    padding: 3px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.chat-message {
+    background-color: #e9ecef;
+    padding: 5px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 0;
+}
+.user-message {
+    background-color: #d1f7d1;
+}
+.system-message {
+    font-style: italic;
+    color: #888;
+}
+.message-header {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 0;
+    padding: 0;
+}
+.message-text {
+    margin-bottom: 0;
+    padding: 0;
+    margin-left: 2px;
+}
+.message-user {
+    font-weight: bold;
+    margin: 2px;
+}
+
+.message-time {
+    font-size: 0.85rem;
+    color: #888;
+}
+#userList {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+}
+h1 {
+    font-size: 2rem;
+    color: #333;
+}
